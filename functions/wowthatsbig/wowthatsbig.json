@@ -1,7 +1,14 @@
 {
   "Submarine": {
     "weight": 1000,
-    "length": 1000,
-    "volume": 1000
+    "length": 1000
+  },
+  "Banana": {
+    "weight": 0.00272,
+    "length": 11.33333
+  },
+  "Humpback Whale": {
+    "weight": 700,
+    "length": 734.9088
   }
 }

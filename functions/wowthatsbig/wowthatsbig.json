@@ -1,0 +1,7 @@
+{
+  "Submarine": {
+    "weight": 1000,
+    "length": 1000,
+    "volume": 1000
+  }
+}

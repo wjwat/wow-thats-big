@@ -1,6 +1,5 @@
 const items = require('./wowthatsbig.json');
 
-
 exports.handler = async function(event, context) {
   return {
     statusCode: 200,

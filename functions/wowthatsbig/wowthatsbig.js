@@ -1,4 +1,4 @@
-import items from './wowthatsbig.json';
+const items = require('./wowthatsbig.json');
 
 
 exports.handler = async function(event, context) {

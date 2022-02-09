@@ -1,5 +1,7 @@
-[functions]
-  directory = "functions"
+[build]
+base = "."
+publish = "./site"
+functions = "functions/"
 
 [[redirects]]
     from = "/api"

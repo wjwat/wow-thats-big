@@ -1,4 +1,4 @@
-const items = require('./wowthatsbig.json');
+const {getRandomItem} = require('./../utils.js');
 const defaultHeaders = {
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Methods': 'GET',
@@ -6,13 +6,7 @@ const defaultHeaders = {
   'Content-Type': 'application/json'
 }
 
-const getRandomItem = () => {
-  const itemNames = Object.keys(items);
-  let x = Math.floor(Math.random() * itemNames.length);
-  return {[itemNames[x]]: items[itemNames[x]]};
-}
-
-exports.handler = async function({ queryStringParameters }) {
+exports.handler = async function() {
   let headers = defaultHeaders;
   return {
     statusCode: 200,

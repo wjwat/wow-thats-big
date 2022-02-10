@@ -1,0 +1,98 @@
+{
+  "Banana": {
+    "weight": 0.00272,
+    "length": 11.33333
+  },
+  "Humpback Whale": {
+    "weight": 600,
+    "length": 736
+  },
+  "Baseball": {
+    "weight": 0.00283,
+    "length": 12.3333328
+  },
+  "Golf Cart": {
+    "weight": 8.164662,
+    "length": 128
+  },
+  "Dirk Nowitzki": {
+    "weight": 2.2226,
+    "length": 112
+  },
+  "Sonic The Hedgehog": {
+    "weight": 0.7,
+    "length": 52.8
+  },
+  "Sand Bag": {
+    "weight": 1,
+    "length": 40
+  },
+  "Empire State Building": {
+    "weight": 6622448.6,
+    "length": 20000
+  },
+  "Keanu Reeves": {
+    "weight": 1.74,
+    "length": 97.7
+  },
+  "Optimus Prime": {
+    "weight": 1335.37593,
+    "length": 366.666666667
+  },
+  "Valve Hammer": {
+    "weight": 0,
+    "length": 1
+  },
+  "Red Kangaroo": {
+    "weight": 0.907184,
+    "length": 93.3328
+  },
+  "B-52 Bomber (B-52H)": {
+    "weight": 1665,
+    "length": 2545.9312
+  },
+  "Bill Nye (The Science Guy)": {
+    "weight": 1.44,
+    "length": 96
+  },
+  "Giraffe": {
+    "weight": 38,
+    "length": 288
+  },
+  "Erik's Rice Bag (Bilbo)": {
+    "weight": 1,
+    "length": 64
+  },
+  "Microwaveable Rice Bag": {
+    "weight": 0.0396,
+    "length": 15.74666672
+  },
+  "Bitcoin": {
+    "weight": 0,
+    "length": 0
+  },
+  "Ryan's Car": {
+    "weight": 27.21552,
+    "length": 240
+  },
+  "Death Star": {
+    "weight": 2680000000000,
+    "diameter": 10498687.68 
+  },
+  "Pluto": {
+    "weight": 260600000000000000000,
+    "diameter": 124755200
+  },
+  "USS Enterprise (NCC-1701)": {
+    "weight": 3800000,
+    "length": 15152
+  },
+  "A single penny": {
+    "weight": 0.00005,
+    "length": 1
+  },
+  "Carpenter Ant": {
+    "weight": 0.00000012,
+    "length": 0.33333328
+  }
+}

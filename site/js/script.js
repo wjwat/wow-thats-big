@@ -17,13 +17,12 @@
         defaultValues
       );
 
-    const url = `/api?${(new URLSearchParams(filters))}`;
-    const isJson = filters.output === 'json';
-    const dinos = await fetch(url)
-      .then(res => isJson ? res.json() : res.text())
-      .then(res => isJson ? JSON.stringify(res, null, 4) : res);
+    const url = `/api`;
+    const item = await fetch(url)
+      .then(res => res.json())
+      .then(res => JSON.stringify(res, null, 4));
 
-    results.innerText = dinos;
+    results.innerText = item;
     details.open = true;
   });
 }());

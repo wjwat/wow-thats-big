@@ -3,14 +3,17 @@
 <head>
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <!-- <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/sphars/yacck/yacck.min.css'> -->
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto+Mono'>
+  <!-- <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/sphars/yacck/yacck.min.css' crossorigin> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
   <link rel='stylesheet' href='stylesheets/yacck.min.css'>
   <link rel='stylesheet' href='stylesheets/style.css'>
   <title>Wow, That's Big!</title>
 </head>
 <body>
   <header>
+    <img class="header-img" src="assets/banana.png">
   </header>
   <main>
     <h1>Wow, That's Big!</h1>
@@ -20,15 +23,7 @@
       <li>Length: Valve Hammers (16 Hammers = 1 foot)</li>
     </ul>
     <form id="form" method="GET" action="/api">
-      <input name="paragraphs" type="number" min="1" max="" placeholder="Number of Paragraphs">
-      <input name="words" type="number" min="1" placeholder="Number of Words">
-      <select name="format">
-        <option>html</option>
-        <option selected>json</option>
-        <option>text</option>
-      </select>
-      <button type="submit">Give me dinos!</button>
-      <button type="reset">Reset</button>
+      <button type="submit">Give me an item!</button>
     </form>
     
     <details>
@@ -37,6 +32,7 @@
     </details>
   </main>
   <footer>
+    <p>(C) Ryan & Will</p>
   </footer>
   <script src="js/script.js"></script>
 </body>

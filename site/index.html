@@ -19,8 +19,25 @@
       <li>Weight: Bags of cement (50 kg~)</li>
       <li>Length: Valve Hammers (16 Hammers = 1 foot)</li>
     </ul>
+    <form id="form" method="GET" action="/api">
+      <input name="paragraphs" type="number" min="1" max="" placeholder="Number of Paragraphs">
+      <input name="words" type="number" min="1" placeholder="Number of Words">
+      <select name="format">
+        <option>html</option>
+        <option selected>json</option>
+        <option>text</option>
+      </select>
+      <button type="submit">Give me dinos!</button>
+      <button type="reset">Reset</button>
+    </form>
+    
+    <details>
+      <summary>Results</summary>
+      <pre id="results"></pre>
+    </details>
   </main>
   <footer>
   </footer>
+  <script src="js/script.js"></script>
 </body>
 </html>

@@ -1,8 +1,4 @@
 {
-  "Submarine": {
-    "weight": 1000,
-    "length": 1000
-  },
   "Banana": {
     "weight": 0.00272,
     "length": 11.33333
@@ -14,5 +10,33 @@
   "Baseball": {
     "weight": 0.00283,
     "length": 0.046875
+  },
+  "Golf Cart": {
+    "weight": 88,
+    "length": 9.96
+  },
+  "Dirk Nowitzki": {
+    "weight": 2.2226,
+    "length": 112
+  },
+  "Sonic The Hedgehog": {
+    "weight": 0.7,
+    "length": 52.8
+  },
+  "Sandbag": {
+    "weight": 1,
+    "length": 34.6
+  },
+  "Empire State Building": {
+    "weight": 6622448.6,
+    "height": 20000
+  },
+  "Keanu Reeves": {
+    "weight": 1.74,
+    "height": 97.7
+  },
+  "Optimus Prime": {
+    "weight": 1335.37593,
+    "height": 577.42784
   }
 }

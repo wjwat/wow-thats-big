@@ -1,10 +1,22 @@
 const items = require('./wowthatsbig.json');
+const defaultHeaders = {
+  'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Methods': 'GET',
+  'Access-Control-Allow-Headers': 'Content-Type, Authorization, Content-Length, X-Requested-With',
+  'Content-Type': 'application/json'
+}
 
-exports.handler = async function(event, context) {
-  console.log(event);
-  console.log(context);
+const getRandomItem = () => {
+  const itemNames = Object.keys(items);
+  let x = Math.floor(Math.random() * itemNames.length);
+  return {[itemNames[x]]: items[itemNames[x]]};
+}
+
+exports.handler = async function({ queryStringParameters }) {
+  let headers = defaultHeaders;
   return {
     statusCode: 200,
-    body: JSON.stringify(items)
+    headers,
+    body: JSON.stringify(getRandomItem())
   };
 }

@@ -3,10 +3,12 @@
   --banana-leaf-light: #DAF826;
   --banana-leaf-med: #86BC02;
 
-  --color-bg: yellow;
+  --color-accent: #8d622b;
+  --color-bg: #ffe135;
   --color-primary: var(--banana-leaf-dark);
   --color-primary-tint: var(--banana-leaf-med);
   --font-color-dark: black;
+  --font-color-light: var(--banana-leaf-light);
   --font-family: 'Roboto Mono', sans-serif;
 
   --width-content: 50rem;
@@ -19,6 +21,16 @@ header {
 
 footer {
   border-top: 6px solid var(--color-primary-tint);
+  text-align: center;
+}
+
+a {
+  color: var(--banana-leaf-dark);
+  font-weight: bold;
+}
+
+a:visited {
+  color: var(--banana-leaf-med);
 }
 
 body > header img {
@@ -40,6 +52,10 @@ form {
   border: 0px;
   margin: 0px;
   padding-left: 0px;
+}
+
+hr {
+  border: 2px solid var(--banana-leaf-dark);
 }
 
 .header-img {

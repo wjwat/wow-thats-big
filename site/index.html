@@ -17,22 +17,56 @@
   </header>
   <main>
     <h1>Wow, That's Big!</h1>
-    <h3>An API to help you see how big something is!</h3>
+    <p>An API to return a single item for you to determine the size of it in bananas!</p>
     <ul>
-      <li>Weight: Bags of cement (50 kg~)</li>
-      <li>Length: Valve Hammers (16 Hammers = 1 foot)</li>
+      <li>Weight is in bags of cement (50 kilograms)</li>
+      <li>Length is in <a href="https://en.wikipedia.org/wiki/List_of_unusual_units_of_measurement#Hammer_unit">Valve Hammers</a> (16 Hammers = 1 foot)</li>
     </ul>
     <form id="form" method="GET" action="/api">
       <button type="submit">Give me an item!</button>
     </form>
     
+    <hr>
+
     <details>
       <summary>Results</summary>
       <pre id="results"></pre>
     </details>
+
+    <hr>
+
+<pre><code>// jQuery.ajax example
+var getItem = $.get('https://wowthatsbig.net/api'),
+    fillContainer = function(html) {
+      $('#some-awesome-container').html(html);
+    },
+    oops = function() {
+      console.log('Where did the item go?');
+    };
+
+getItem.then(fillContainer, oops);</code></pre>
+<pre><code>// Vanilla JavaScript example
+var xhr = new XMLHttpRequest();
+
+xhr.open('GET', 'https://wowthatsbig.net/api');
+xhr.onload = function() {
+  if (this.status === 200) {
+    document.querySelector('#some-awesome-container').innerHTML = this.response;
+  } else {
+    console.log('Where did the item go?');
+  }
+};
+xhr.send();</code></pre>
+
+<pre><code>// Using Fetch API
+fetch('https://wowthatsbig.net/api')
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(err => console.error('Where did the item go?'))</code></pre>
+
   </main>
   <footer>
-    <p>(C) Ryan & Will</p>
+    <p>🍌🍌🍌 <a href="https://github.com/probablynotryan">Ryan</a> & <a href="https://github.com/wjwat">Will</a> 🍌🍌🍌</p>
   </footer>
   <script src="js/script.js"></script>
 </body>

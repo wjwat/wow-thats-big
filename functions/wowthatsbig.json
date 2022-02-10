@@ -94,5 +94,9 @@
   "Carpenter Ant": {
     "weight": 0.00000012,
     "length": 0.33333328
+  },
+  "Llama": {
+    "weight": 3.99162,
+    "length": 94
   }
 }

@@ -98,5 +98,45 @@
   "Llama": {
     "weight": 3.99162,
     "length": 94
+  },
+  "Tyrannosaurus Rex": {
+    "weight": 140,
+    "length": 320
+  },
+  "Pencil": {
+    "weight": 0.000850486,
+    "length": 10
+  },
+  "Medium Cheese Pizza": {
+    "weight": 0.0181437,
+    "diameter": 16
+  },
+  "An Actual Hammer": {
+    "weight": 0.0272156,
+    "length": 17.33328
+  },
+  "Human Eyeball": {
+    "weight": 0.00015,
+    "diameter": 1.27034128
+  },
+  "Can of Campbell's Chicken Noodle Soup": {
+    "weight": 0.01270058,
+    "length": 7.6666672
+  },
+  "Mjölnir (Thor's Hammer)": {
+    "weight": 108862170000000,
+    "length": 24
+  },
+  "Captain America's Shield": {
+    "weight": 0.1088622,
+    "diameter": 40
+  }, 
+  "Box Fan": {
+    "weight": 0.0616886,
+    "height": 26.66672
+  },
+  "Compact Disc": {
+    "weight": 0.0004,
+    "diameter": 6.33333333328
   }
 }

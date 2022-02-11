@@ -8,6 +8,11 @@ functions = "functions/"
     to = "/.netlify/functions/wowthatsbig"
     status = 200
 
+[[redirects]]
+    from = "/api/randomarray"
+    to = "/.netlify/functions/randomarray"
+    status = 200
+
 [[headers]]
   for = "/*"
   [headers.values]

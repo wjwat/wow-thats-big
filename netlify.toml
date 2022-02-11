@@ -11,6 +11,7 @@ functions = "functions/"
 [[headers]]
   for = "/*"
   [headers.values]
+    Access-Control-Allow-Origin = "*"
     Content-Security-Policy = "default-src *; font-src fonts.gstatic.com; style-src 'self' fonts.googleapis.com *.cloudfront.net 'unsafe-inline'; img-src * 'self' data:; script-src 'self' *.cloudfront.net;"
     X-XSS-Protection = "1; mode=block"
     X-Frame-Options = "DENY"

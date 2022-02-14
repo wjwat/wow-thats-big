@@ -37,11 +37,15 @@ body > header img {
   height: 100%;
 }
 
-button, pre {
+button, pre, .details {
   border-radius: 6px;
   border: 5px solid var(--banana-leaf-dark);
   background-color: var(--banana-leaf-light);
   color: black;
+}
+
+.details {
+  padding: 1rem 2rem;
 }
 
 details {

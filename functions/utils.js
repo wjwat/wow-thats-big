@@ -1,5 +1,3 @@
-const items = require('./wowthatsbig/wowthatsbig.json');
-
 exports.defaultHeaders = {
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Methods': 'GET',
@@ -34,21 +32,3 @@ exports.getSanitizedQueryParams = (filters, queryParams) =>
     }
     
   }, {})
-
-// from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
-getRandomIntInclusive = (min, max) => {
-  min = Math.ceil(min);
-  max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min + 1) + min); //The maximum is inclusive and the minimum is inclusive
-}
-
-
-exports.getRandomArray = ({ size, upper }) => {
-  return Array.from({length: size}, () => getRandomIntInclusive(0, upper));
-}
-
-exports.getRandomItem = () => {
-  const itemNames = Object.keys(items);
-  let x = Math.floor(Math.random() * itemNames.length);
-  return {[itemNames[x]]: items[itemNames[x]]};
-}

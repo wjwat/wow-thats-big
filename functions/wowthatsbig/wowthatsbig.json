@@ -77,11 +77,11 @@
   },
   "Death Star": {
     "weight": 2680000000000,
-    "diameter": 10498687.68 
+    "circumference": 10498687.68 
   },
   "Pluto": {
     "weight": 260600000000000000000,
-    "diameter": 124755200
+    "circumference": 124755200
   },
   "USS Enterprise (NCC-1701)": {
     "weight": 3800000,
@@ -109,7 +109,7 @@
   },
   "Medium Cheese Pizza": {
     "weight": 0.0181437,
-    "diameter": 16
+    "diameter": 192
   },
   "An Actual Hammer": {
     "weight": 0.0272156,
@@ -117,7 +117,7 @@
   },
   "Human Eyeball": {
     "weight": 0.00015,
-    "diameter": 1.27034128
+    "circumference": 1.27034128
   },
   "Can of Campbell's Chicken Noodle Soup": {
     "weight": 0.01270058,
@@ -129,7 +129,7 @@
   },
   "Captain America's Shield": {
     "weight": 0.1088622,
-    "diameter": 40
+    "diameter": 480
   }, 
   "Box Fan": {
     "weight": 0.0616886,
@@ -137,6 +137,6 @@
   },
   "Compact Disc": {
     "weight": 0.0004,
-    "diameter": 6.33333333328
+    "diameter": 6.5879264
   }
 }

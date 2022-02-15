@@ -13,6 +13,11 @@ functions = "functions/"
     to = "/.netlify/functions/randomarray"
     status = 200
 
+[[redirects]]
+    from = "/api/randomjoke"
+    to = "/.netlify/functions/randomjoke"
+    status = 200
+
 [[headers]]
   for = "/*"
   [headers.values]

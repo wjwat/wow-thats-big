@@ -1,3 +1,10 @@
+async function fetchEndPoint() {
+  const url = '/.netlify/functions/test';
+  const resp = await fetch(url).then(res => res.json());
+
+  return resp;
+}
+
 (function () {
   const form = document.getElementById('form');
   const results = document.getElementById('results');
@@ -21,6 +28,9 @@
     const item = await fetch(url)
       .then(res => res.json())
       .then(res => JSON.stringify(res, null, 4));
+
+    const x = fetchEndPoint();
+    console.log(x);
 
     results.innerText = item;
     details.open = true;
